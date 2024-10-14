@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library-scafolder",
+  "name": "@vladtopolev/react-component-library-scaffold",
   "version": "0.0.1",
   "description": "",
   "scripts": {
@@ -20,5 +20,11 @@
   },
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vladtopolev"
+  }
 }
